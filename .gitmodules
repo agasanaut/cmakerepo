@@ -1,0 +1,3 @@
+[submodule "external"]
+	path = external
+	url = git@github.com:agasanaut/cmakerepo1.git
