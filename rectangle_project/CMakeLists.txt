@@ -11,3 +11,6 @@ include_directories(include)
 # Add source files
 add_executable(rectangle src/rectangle.cpp)
 
+# Link your executable with the shared library
+target_link_libraries(rectangle /home/tejnxt/github/cmakerepo/external/lib/libAdditionLibrary.so)
+
